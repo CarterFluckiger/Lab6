@@ -2,7 +2,10 @@
  Carter Fluckiger
  C++ Fall 2019
  Due: November 14,2019
- Lab:
+ Lab:Write a C++ program that reads characters representing binary (base 2)
+ numbers from a data file called BinaryIn.dat and translates them to decimal (base 10)
+ numbers. The binary and decimal numbers should be output in two columns with
+ appropriate headings.
 */
 #include <iostream>
 #include <fstream>
@@ -119,7 +122,8 @@ void compiler()
         //while function used to make sure second stream is valid and there are values on the //line that has been read from the file
     while(infilecout && numbers != '\n')
     {
-        //if statement checking to see if bool is true based on if the input is valid
+        //if statement checking to see if bool is true based on if the input is vWrite a C++ program that reads characters representing binary (base 2)
+        
         if(accepted)
         {
             //couts binary numbers if valid
